@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Topic;
+use App\Models\Topic;
 
 class PagesController extends Controller
 {

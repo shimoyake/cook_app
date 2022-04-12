@@ -19,6 +19,6 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/', 'PagesController@index');
-Route::post('/', 'PagesController@save');
+Route::get('/', 'App\Http\Controllers\PagesController@index');
+Route::post('/', 'App\Http\Controllers\PagesController@save');
 
